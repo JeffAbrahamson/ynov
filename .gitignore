@@ -1,0 +1,10 @@
+# Latex
+*.aux
+*.toc
+*.out
+*.snm
+*.log
+*.nav
+
+# Emacs
+*~
