@@ -7,4 +7,12 @@
 *.nav
 
 # Emacs
+=======
+# ipython
 *~
+
+# Python
+venv
+.ipynb_checkpoints
+
+
