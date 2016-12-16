@@ -66,9 +66,9 @@
   \only<1-2>{
     Points $d = \{d_1, \dotsc, d_n\}$
 
-    Clusters $K = \{k_1, \dotsc, d_k\}$.
+    Clusters $K = \{c_1, \dotsc, c_k\}$.
 
-    Cluster $k_{d_i}$ is the cluster of $d_i$.
+    Cluster $c_{d_i}$ is the centroid of $d_i$.
   }
   
   \only<2>{
@@ -105,12 +105,12 @@
 
     $s_i$ near 0 $\iff$ $d_i$ on the border between two clusters
 
-    $s_i$ near -1 $\iff$ $d_i$ well clustered
+    $s_i$ near -1 $\iff$ $d_i$ poorly clustered
   }
 
   \only<7>{
     \begin{mphrase}
-      \textrm{Consider } \overline{s_i} \,\textrm{ over } i\in k_j \textrm{ for cluster } k_j
+      \textrm{Consider } \overline{s_i} \,\textrm{ over } i\in c_j \textrm{ for cluster } c_j
     \end{mphrase}
   }
 
